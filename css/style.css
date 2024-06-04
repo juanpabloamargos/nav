@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: crimson;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header img{
+    height: 40px;
+}
+
+.navegacion{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 2rem;
+    padding-right: 80px;
+}
+
+.navegacion a{
+    color: #fff;
+    text-decoration: none;
+}
